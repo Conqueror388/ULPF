@@ -1,0 +1,3 @@
+CEF:0|Suricata|IDP|6.0.4|2001219|ET SCAN Potential SSH Scan OUTBOUND|3|src=192.168.1.105 dst=198.51.100.12 sport=55412 dport=22 proto=TCP msg=ET SCAN Potential SSH Scan OUTBOUND
+CEF:0|Suricata|IDP|6.0.4|2008500|ET EXPLOIT Apache Struts RCE CVE-2017-5638|9|src=203.0.113.88 dst=10.0.0.5 sport=41234 dport=8080 proto=TCP msg=ET EXPLOIT Apache Struts RCE CVE-2017-5638
+CEF:0|Suricata|IDP|6.0.4|2013028|ET POLICY TLS Suspicious Certificate SNI|5|src=192.168.1.140 dst=104.244.42.1 sport=50244 dport=443 proto=TCP msg=ET POLICY TLS Suspicious Certificate SNI

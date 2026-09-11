@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#090d16] text-slate-100 overflow-x-hidden font-sans antialiased selection:bg-cyan-500/30 selection:text-cyan-200;
+  }
+}
+
+/* Refined Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* ==========================================================================
+   Professional Enterprise Background Mesh Gradients
+   Subtle, responsive, hardware-accelerated, high readability
+   ========================================================================== */
+
+.bg-dashboard-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 15% 10%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+    radial-gradient(at 85% 15%, rgba(59, 130, 246, 0.04) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, rgba(15, 23, 42, 0.6) 0px, transparent 50%);
+}
+
+.bg-architecture-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 20% 20%, rgba(16, 185, 129, 0.04) 0px, transparent 50%),
+    radial-gradient(at 80% 30%, rgba(6, 182, 212, 0.05) 0px, transparent 50%);
+}
+
+.bg-ai-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 10% 25%, rgba(168, 85, 247, 0.04) 0px, transparent 50%),
+    radial-gradient(at 90% 15%, rgba(6, 182, 212, 0.05) 0px, transparent 50%);
+}
+
+.bg-stream-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 50% 0%, rgba(6, 182, 212, 0.05) 0px, transparent 60%);
+}
+
+.bg-threat-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 10% 15%, rgba(239, 68, 68, 0.04) 0px, transparent 50%),
+    radial-gradient(at 85% 25%, rgba(6, 182, 212, 0.04) 0px, transparent 50%);
+}
+
+.bg-explorer-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 50% 10%, rgba(30, 41, 59, 0.4) 0px, transparent 60%);
+}
+
+.bg-demo-mesh {
+  background-color: #090d16;
+  background-image: 
+    radial-gradient(at 25% 10%, rgba(245, 158, 11, 0.04) 0px, transparent 50%),
+    radial-gradient(at 75% 20%, rgba(6, 182, 212, 0.04) 0px, transparent 50%);
+}
+
+/* Professional Card Surfaces & Borders */
+.surface-card {
+  @apply bg-[#0f1422] border border-slate-800/80 rounded-xl transition-all duration-200;
+}
+
+.surface-card:hover {
+  @apply border-slate-700/90 shadow-lg shadow-black/30;
+}
+
+.surface-header {
+  @apply bg-[#0b101c] border-b border-slate-800/80 px-5 py-3.5;
+}
+
+/* Theme color accents */
+.theme-cyan {
+  --accent: #06b6d4;
+  --accent-muted: rgba(6, 182, 212, 0.15);
+}
+
+.theme-matrix {
+  --accent: #10b981;
+  --accent-muted: rgba(16, 185, 129, 0.15);
+}
+
+.theme-crimson {
+  --accent: #ef4444;
+  --accent-muted: rgba(239, 68, 68, 0.15);
+}
+
+.theme-synth {
+  --accent: #a855f7;
+  --accent-muted: rgba(168, 85, 247, 0.15);
+}

@@ -1,0 +1,3 @@
+BANKING_TXN timestamp=2026-09-01T10:32:40Z client_ip=192.168.1.77 server_ip=10.0.0.50 amount=5000.00 currency=USD action=TRANSFER_FAILED user=john_doe account=ACC-9021 reason=EXCEEDED_LIMIT
+BANKING_TXN timestamp=2026-09-01T10:32:44Z client_ip=192.168.1.82 server_ip=10.0.0.50 amount=150.00 currency=USD action=TRANSFER_SUCCESS user=alice_smith account=ACC-4412 reason=APPROVED
+BANKING_TXN timestamp=2026-09-01T10:32:49Z client_ip=203.0.113.99 server_ip=10.0.0.50 amount=99999.00 currency=USD action=TRANSFER_BLOCKED user=fraud_suspect account=ACC-0001 reason=SUSPICIOUS_LOCATION
